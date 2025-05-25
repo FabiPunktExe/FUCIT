@@ -1,0 +1,6 @@
+name: FucitExample
+main: de.fabiexe.fucit.example.FucitExample
+version: '${version}'
+api-version: 1.21
+class-transformers:
+- de.fabiexe.fucit.example.transformer
