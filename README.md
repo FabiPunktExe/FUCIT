@@ -1,7 +1,7 @@
 # FUCIT (Fabi's utility can inject transformers)
 
 ## Installation
-Download `FUCIT.jar` from [Modrinth](https://modrinth.com/plugin/fucit) and place it in your server directory.
+Download `FUCIT.jar` from the [releases page](https://github.com/FabiPunktExe/FUCIT/releases) and place it in your server directory.
 Add the JVM flag `-javaagent:FUCIT.jar` before `-jar` to your server startup script:
 ```bash
 java -javaagent:FUCIT.jar -jar server.jar
@@ -42,11 +42,11 @@ Read the [introduction into paper-plugin.yml](https://docs.papermc.io/paper/dev/
     ```
 
 3. Add class names or package names of your class transformers to the `class-transformers` list in your `paper-plugin.yml`:
-```yaml
-name: FucitExample
-main: de.fabiexe.fucit.example.FucitExample
-version: '${version}'
-api-version: '1.21.5'
-class-transformers:
-- de.fabiexe.fucit.example.transformer
-```
+    ```yaml
+    name: FucitExample
+    main: de.fabiexe.fucit.example.FucitExample
+    version: '${version}'
+    api-version: '1.21.5'
+    class-transformers:
+    - de.fabiexe.fucit.example.transformer
+    ```
