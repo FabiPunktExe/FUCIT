@@ -42,11 +42,11 @@ Read the [introduction into paper-plugin.yml](https://docs.papermc.io/paper/dev/
     ```
 
 3. Add class names or package names of your class transformers to the `class-transformers` list in your `paper-plugin.yml`:
-```yaml
-name: FucitExample
-main: de.fabiexe.fucit.example.FucitExample
-version: '${version}'
-api-version: '1.21.5'
-class-transformers:
-- de.fabiexe.fucit.example.transformer
-```
+    ```yaml
+    name: FucitExample
+    main: de.fabiexe.fucit.example.FucitExample
+    version: '${version}'
+    api-version: '1.21.5'
+    class-transformers:
+    - de.fabiexe.fucit.example.transformer
+    ```
