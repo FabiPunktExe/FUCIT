@@ -4,7 +4,7 @@ plugins {
 }
 
 group = "de.fabiexe"
-version = "1.0-SNAPSHOT"
+version = "1.0.0"
 
 repositories {
     mavenCentral()
@@ -30,6 +30,7 @@ tasks {
         manifest.attributes["Premain-Class"] = "de.fabiexe.fucit.Fucit"
         manifest.attributes["Can-Redefine-Classes"] = "true"
         manifest.attributes["Can-Retransform-Classes"] = "true"
+        archiveFileName = "FUCIT.jar"
     }
 }
 
