@@ -10,7 +10,7 @@ repositories {
 
 dependencies {
     paperweight.paperDevBundle("1.21.5-R0.1-SNAPSHOT")
-    compileOnly("net.lenni0451.classtransform:core:1.14.1")
+    compileOnly("net.lenni0451.classtransform:core:1.15.1")
 }
 
 tasks {
