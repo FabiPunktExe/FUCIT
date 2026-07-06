@@ -15,7 +15,7 @@ dependencies {
     compileOnly("io.papermc:paperclip:3.0.4-SNAPSHOT")
     implementation("net.lenni0451.classtransform:core:1.14.1")
     implementation("net.lenni0451.classtransform:additionalclassprovider:1.14.1")
-    implementation("net.lenni0451.classtransform:mixinstranslator:1.14.1")
+    implementation("net.lenni0451.classtransform:mixinstranslator:1.15.1")
 }
 
 tasks {
